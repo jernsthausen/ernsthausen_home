@@ -1,9 +1,9 @@
 ErnsthausenHome::Application.routes.draw do
-  get "static_pages/about"
-
-  get "static_pages/experience"
-
-  get "static_pages/past_publications"
+  root to: 'static_pages#home'
+#  match '/home',    to: 'static_pages#home'
+  match '/experience',   to: 'static_pages#experience'
+  match '/past_publications', to: 'static_pages#past_publications'
+  match '/contact', to: 'static_pages#contact'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
