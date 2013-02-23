@@ -85,7 +85,7 @@ footer {
 
 footer a {
   color: #555;
-}  
+} 
 
 footer a:hover { 
   color: #222;
@@ -103,4 +103,30 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 10px;
+}
+
+#facebook_link a, #linkedin_link a{
+	height:32px;
+	display:block}
+
+#facebook_link, #linkedin_link{
+	height: 32px;
+	width: 32px;
+	display:block;
+}
+
+#facebook_link a:hover{
+	background: url('/images/btn_sprite.png') 32px 32px;
+}
+
+#facebook_link {
+	background: url('/images/btn_sprite.png')  32px 0px;
+}
+
+#linkedin_link a:hover{
+	background: url('/images/btn_sprite.png') 0px 32px;
+}
+
+#linkedin_link {
+	background: url('/images/btn_sprite.png')  0px 0px;
 }
