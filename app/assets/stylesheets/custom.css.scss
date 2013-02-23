@@ -26,6 +26,14 @@ textarea {
   margin-bottom: 10px;
 }
 
+ul {
+	list-style-type:none;
+}
+
+.toggle {
+	display: none;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -108,7 +116,7 @@ footer ul {
 
 footer ul li {
   float: left;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 #facebook_link a, #linkedin_link a, #twitter_link a{
@@ -122,11 +130,11 @@ footer ul li {
 	display:block;
 }
 
-#facebook_link a:hover{
+#twitter_link a:hover{
 	background: url('/assets/btn_sprite.png') 32px 32px;
 }
 
-#facebook_link {
+#twitter_link {
 	background: url('/assets/btn_sprite.png')  32px 0px;
 }
 
@@ -138,11 +146,11 @@ footer ul li {
 	background: url('/assets/btn_sprite.png')  0px 0px;
 }
 
-#twitter_link a:hover{
+#facebook_link a:hover{
 	background: url('/assets/btn_sprite.png') 64px 32px;
 }
 
-#twitter_link {
+#facebook_link {
 	background: url('/assets/btn_sprite.png')  64px 0px;
 }
 
