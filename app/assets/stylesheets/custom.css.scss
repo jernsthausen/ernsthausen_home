@@ -92,12 +92,18 @@ footer a:hover {
 }
 
 footer small {
+/*  position:relative;
+  left:30%;*/
   float: left;
+  vertical-align: top;
+/*  margin-left:auto;
+  margin-right:auto;*/
 }
 
 footer ul {
   float: right;
   list-style: none;
+  display:block;
 }
 
 footer ul li {
@@ -105,28 +111,51 @@ footer ul li {
   margin-left: 10px;
 }
 
-#facebook_link a, #linkedin_link a{
+#facebook_link a, #linkedin_link a, #twitter_link a{
 	height:32px;
-	display:block}
+	display:block;
+	}
 
-#facebook_link, #linkedin_link{
+#facebook_link, #linkedin_link, #twitter_link{
 	height: 32px;
 	width: 32px;
 	display:block;
 }
 
 #facebook_link a:hover{
-	background: url('/images/btn_sprite.png') 32px 32px;
+	background: url('/assets/btn_sprite.png') 32px 32px;
 }
 
 #facebook_link {
-	background: url('/images/btn_sprite.png')  32px 0px;
+	background: url('/assets/btn_sprite.png')  32px 0px;
 }
 
 #linkedin_link a:hover{
-	background: url('/images/btn_sprite.png') 0px 32px;
+	background: url('/assets/btn_sprite.png') 0px 32px;
 }
 
 #linkedin_link {
-	background: url('/images/btn_sprite.png')  0px 0px;
+	background: url('/assets/btn_sprite.png')  0px 0px;
 }
+
+#twitter_link a:hover{
+	background: url('/assets/btn_sprite.png') 64px 32px;
+}
+
+#twitter_link {
+	background: url('/assets/btn_sprite.png')  64px 0px;
+}
+
+#rails_link{
+    float:right;
+	background: url('/assets/rails_sprite.png') 25px 0px;
+	height: 32px;
+	width: 25px;
+	display:block;
+	margin-left:3px;
+}
+
+#rails_link:hover{
+	background: url('/assets/rails_sprite.png') 0px 0px;
+}
+
