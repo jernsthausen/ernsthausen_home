@@ -22,6 +22,17 @@ textarea {
   text-align: center;
 }
 
+img.right {
+	display: block;
+	float:right;
+}
+
+img.center {
+	display: block;
+	margin-right:auto;
+	margin-left:auto;
+}
+
 .center h1 {
   margin-bottom: 10px;
 }
