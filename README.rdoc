@@ -1,1 +1,1 @@
-A simple resume site. Basic appearance customized from Michael Hartl's Rails Tutorial at railstutorial.org.
+A simple resume site.
